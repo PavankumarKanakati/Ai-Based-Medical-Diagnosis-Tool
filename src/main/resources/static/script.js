@@ -1,7 +1,5 @@
 function getDiagnosis() {
     let inputElement = document.getElementById("symptomInput");
-
-    // Check if the element exists
     if (!inputElement) {
         console.error("Element with ID 'symptomInput' not found!");
         return;
@@ -18,7 +16,6 @@ function getDiagnosis() {
     })
     .then(response => response.json())
     .then(data => {
-        // Replace alert with a div update
         let resultDiv = document.getElementById("result");
         if (!resultDiv) {
             console.error("Element with ID 'result' not found!");
