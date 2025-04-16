@@ -1,0 +1,6 @@
+com\example\demo\DemoApplication.class
+com\example\medicaldiagnosis\controller\DiagnosisController$SymptomsRequest.class
+com\example\medicaldiagnosis\MedicalDiagnosisApplication.class
+com\example\medicaldiagnosis\controller\DiagnosisController.class
+com\example\medicaldiagnosis\dto\DiagnosisRequest.class
+com\example\medicaldiagnosis\ai\RuleBasedAI.class

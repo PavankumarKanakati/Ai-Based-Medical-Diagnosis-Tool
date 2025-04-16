@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AI MEDICAL DIAGNOSIS</title>
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap">
+        <link rel="stylesheet" href="first.css">
+        <link rel="icon" type="image/png" href="images/logo.png">
+    </head>
+    <body>
+        <div class="navbar">
+           <img src="images/logo.png" alt="Logo" class="logo">
+           <div class="title"><strong><h1>MY HEALTH CHECKER</h1></strong></div>
+           <a id="Home" href="">Home</a> 
+           <a id="Conditions" href="./conditions.html">Conditions</a>
+           <a id="Symptoms" href="./Symptoms.html">Symptoms</a>
+           <section id="buttons">
+            <button id="login_btn">Login</button> 
+            <button id="signup_btn">Signup</button>
+           </section>
+          
+        </div>
+        <!-- <p id="intro"> 🌿<b> Welcome to My Health Checker!</b> 🌿  <br> -->
+        <div class="center">
+            <div class="box">
+                <h1>Symptoms Checker Made For Everyone </h1>
+                <ul id="points">
+                    <li>✔️ Analyze your symptoms</li>
+                    <li>✔️ Understand your health instantly</li>
+                    <li>✔️ Plan your next steps with ease</li>
+                    <li>✔️ Be prepared before visiting a doctor</li>
+                </ul>
+                <a class="check_btn" href="index.html"> <button>
+                    <b>Check Symptoms with AI</b> </button></a>
+               
+            </div>
+            <div class="image">
+                <img  src="./first.png" alt="image">
+            </div>
+            
+
+        </div>
+      
+        <div class="left-div">
+                <h2>About Us</h2>
+                <p> Your AI-powered health assistant at your fingertips! Simply enter your symptoms, and our smart system will analyze them to provide possible conditions and guidance to cure them.Stay informed, take care of your health, and find the right care—anytime, anywhere! 💙✨</p>  
+        </div>
+        <br>
+      
+        <div class="middle">
+            <label for="For u"></label>
+        <div class="tips">
+           <b>Health tips</b>
+            <ul>
+                <li>"Drink 8 glasses of water daily 💧",</li>
+                <li>"Get at least 7-8 hours of sleep 😴",</li>
+                <li>"Exercise for 30 minutes every day 🏃",</li>
+                <li>"Eat more fruits and vegetables 🍎🥦",</li>
+                <li>"Take deep breaths to reduce stress 🌿"</li>
+            </ul>
+        </div>
+        <div class="fact-box">
+            <h2>🧠 Did You Know?</h2>
+            <p id="healthFact">Click the button to see a fun health fact!</p>
+            <button onclick="showHealthFact()">Show Fact</button>
+        </div>
+        </div>
+        <script src="first.js"></script>
+        
+    </body>
+    <br><br>
+    <footer class="footer">
+        <div class="footer-left">
+            <h3>Frequently Asked Questions ❓</h3>
+            <details>
+                <summary style="cursor: pointer;">How does the symptom checker work?</summary>
+                <p>Simply enter your symptoms, and our AI will analyze them to provide possible conditions.</p>
+            </details>
+            <details>
+                <summary style="cursor: pointer;">Can this replace a doctor's consultation?</summary>
+                <p>No, this is for informational purposes only. Always consult a medical professional for advice.</p>
+            </details>
+            <details>
+                <summary style="cursor: pointer;">Is my data safe?</summary>
+                <p>Yes, we prioritize your privacy and ensure your data remains secure.</p>
+            </details>
+            <p style="margin-top: 20px;">© 2025 MyHealth | All Rights Reserved</p>
+        </div>
+        <div class="footer-middle">
+            <label class="links">Follow us on</label>
+            <br><br>
+            <a href="https://facebook.com" target="_blank"> 🌐 Facebook</a> 
+            <br><br>
+            <a href="https://twitter.com" target="_blank">  🐦 Twitter</a> 
+            <br>  <br>  
+            <a href="https://instagram.com" target="_blank">📸 Instagram</a> 
+            <br><br>
+            <a href="https://linkedin.com" target="_blank"> 💼 LinkedIn</a>
+        </div>
+        <div class="footer-right">
+            <section class="contact">
+                <h2>📩 Contact Us</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <br>
+                    <input type="email" placeholder="Your Email" required>
+                    <br>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <br>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </div> 
+    </footer>
+</html>
