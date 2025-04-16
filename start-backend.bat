@@ -1,11 +1,11 @@
 @echo off
-echo 🚀 Starting Spring Boot backend...
+echo 🚀 Starting Health Checker Backend...
 
-:: Navigate to the backend folder and run Spring Boot on any device
-start cmd /k "cd /d C:\Users\pavan\OneDrive\Desktop\my health checker 1 && mvn spring-boot:run"
+:: Start the Spring Boot app using the JAR file
+start java -jar target\demo-0.0.1-SNAPSHOT.jar
 
-:: Wait for backend to boot
-timeout /t 5 > nul
+:: Wait 10 seconds for the backend to boot
+timeout /t 10 > nul
 
 echo 🌐 Opening frontend in browser...
 start chrome "http://localhost:9090/first.html"
