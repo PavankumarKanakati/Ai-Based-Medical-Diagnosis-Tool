@@ -30,22 +30,22 @@
 #Home:hover{
     color: black;
 }
-#Conditions{
+#conditions{
     display: flex;
     justify-content: center;
     flex-basis: 10%;
     font-size: larger;
 }
-#Conditions:hover{
+#conditions:hover{
     color: black;
 }
-#Symptoms{
+#symptoms{
     display: flex;
     justify-content: center;
     flex-basis: 10%;
     font-size: larger;
 }
-#Symptoms:hover{
+#symptoms:hover{
     color: black;
 }
 #buttons{
