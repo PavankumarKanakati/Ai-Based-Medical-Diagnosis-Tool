@@ -1,2 +1,2 @@
 *.jar filter=lfs diff=lfs merge=lfs -text
-jre/** filter=lfs diff=lfs merge=lfs -text
+jre.zip.zip filter=lfs diff=lfs merge=lfs -text
