@@ -1,13 +1,16 @@
 @echo off
-echo 🚀 Starting Health Checker Backend...
+echo 🔥 Starting My Health Checker with bundled JRE...
 
-:: Start the Spring Boot app using the JAR file
-start "" java -XX:+TieredCompilation -XX:TieredStopAtLevel=1 -jar target/demo-0.0.1-SNAPSHOT.jar
+:: Set the path to the local JRE folder
+set JAVA_HOME=%~dp0jre
 
-:: Wait 10 seconds for the backend to boot
-timeout /t 2 > nul
+:: Start backend using the bundled Java
+start "" /MIN "%JAVA_HOME%\bin\java.exe" -jar "%~dp0target\demo-0.0.1-SNAPSHOT.jar"
 
-echo 🌐 Opening frontend in browser...
-start chrome "http://localhost:9090/first.html"
+:: Wait a few seconds for the backend to start (adjust if needed)
+timeout /t 8 > nul
 
-pause
+:: Open the frontend in the browser (served by Spring Boot)
+start "" "http://localhost:9090/first.html"
+
+exit
