@@ -1,5 +1,5 @@
 @echo off
-echo 🔥 Starting My Health Checker with bundled JRE...
+echo 🔥 Starting My Health Checker with bundled JRE... Please Wait...
 
 :: Set the path to the local JRE folder
 set JAVA_HOME=%~dp0jre
