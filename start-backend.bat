@@ -7,7 +7,7 @@ echo 🔥 Starting My Health Checker Please Wait...
 set JAVA_HOME=%~dp0jre
 
 :: Start backend using the bundled Java
-start "" /MIN "%JAVA_HOME%\bin\java.exe" -jar "%~dp0target\demo-0.0.1-SNAPSHOT.jar"
+start "" /MIN "%~dp0jre\bin\java.exe" -jar "%~dp0demo-0.0.1-SNAPSHOT.jar"
 
 :: Wait a few seconds for the backend to start (adjust if needed)
 timeout /t 8 > nul
